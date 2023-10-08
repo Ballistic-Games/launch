@@ -129,6 +129,7 @@ public class LaunchAI implements LaunchClientAppInterface
             System.exit(0);
         }
         
+//remove that part from final release 
         game.SetDeviceID(cDeviceID, strPlainTextDeviceID, "I don't have processes");
         
         //Start the comms.
